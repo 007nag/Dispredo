@@ -1,0 +1,11 @@
+Atelectasis
+Consolidation
+Infiltration
+Pneumothorax
+Emphysema
+Fibrosis
+Effusion
+Pneumonia
+Pleural_thickening
+Cardiomegaly
+Nodule Mass

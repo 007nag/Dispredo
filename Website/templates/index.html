@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+<h1 id='heading'>DISPREDO</h1>
+<form method="POST",action="/upload" enctype="multipart/form-data">
+    
+    
+    <div id='container'>
+    <img src={{source}} width="300px" height="300px" class="im"></img><br><br><br>
+    
+    <input type="file" name="image" accept="image/*"  id='filebtn'><br><br><br>
+    <button type="submit">Submit</button>
+</div>
+</form>
+    <div id='main'>
+        <h1 ><u>DIAGNOSIS</u></h1>
+        {{result|safe}}
+</div>
+{% endblock %}

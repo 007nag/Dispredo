@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+form
+{
+    margin-left: 5%; width: 30%;
+}
+#container
+{
+    text-align: center;
+}
+p
+{
+    border:1px solid green;
+    border-collapse: collapse;
+    font-size: 120%;
+}
+#heading
+{
+    
+    font-size: 50px;
+    width:fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("images/xray.jpg");
+    background-size: 100% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    
+    animation-name: anim;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim
+{
+    0%{
+        background-position-x: 0%;
+        background-position-y: 100%;
+        background-size: 100% 100%;
+        
+    }
+    50%
+    {
+        background-position-x: 100%;
+        background-position-y: 0%;
+        background-size: 50% 50%;
+        
+        
+    }
+    100%
+    {
+        background-position-x: 0%;
+        background-position-y: 0%;  
+        background-size: 100% 100%;
+        
+    }
+}
+.im
+{
+    border: 3px solid green;
+    
+}
+button, #filebtn
+{
+    border: 0px solid black;
+    border-radius: 25px;
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+}
+
+#main {
+    margin-left: 60%;
+    margin-top: -450px;
+}

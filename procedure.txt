@@ -1,0 +1,8 @@
+First, install python 3.8. Then install tensorflow 2.5, flask library, numpy library, PIL, opencv
+The procedure for executing the project is:
+1) First navigate into the website folder
+2) Then run the python file named "a.py"
+3) After that open any browser and type "http://localhost:5000/" in the url box.
+4) After that, the website will be opened. Then click on "Choose File" button to choose a valid "Chest X-ray" image.
+5) Click on the submit button to submit the image.
+6) The diagnosis of the diseases will then be displayed on the webpage.
